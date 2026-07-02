@@ -3,6 +3,8 @@ import Header from '../components/header/Header'
 import bgImage from '../assets/goodluck-background-plant.jpg'
 import Layout from '../components/heroSection/HeroLayout'
 import TopSellingPlants from '../components/sellingPlants/TopSellingPlants'
+import CustomerReview from '../components/customerReviewComp/CustomerReview'
+import BestO2Plant from '../components/sellingPlants/BestO2Plant'
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
       <Layout />
     </div>
     <TopSellingPlants />
+    <CustomerReview />
+    <BestO2Plant />
     </div>
   )
 }
