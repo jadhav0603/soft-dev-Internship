@@ -5,6 +5,7 @@ import Layout from '../components/heroSection/HeroLayout'
 import TopSellingPlants from '../components/sellingPlants/TopSellingPlants'
 import CustomerReview from '../components/customerReviewComp/CustomerReview'
 import BestO2Plant from '../components/sellingPlants/BestO2Plant'
+import Footer from '../components/footer/Footer'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
     <TopSellingPlants />
     <CustomerReview />
     <BestO2Plant />
+    <Footer />
     </div>
   )
 }
