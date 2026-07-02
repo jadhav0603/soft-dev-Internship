@@ -1,14 +1,28 @@
-import React from 'react'
-import HeroSection from './HeroSection'
-import AglaonemaPlant from './AglaonemaPlant'
+import React from "react";
+import HeroSection from "./HeroSection";
+import AglaonemaPlant from "./AglaonemaPlant";
+import ReviewCard from "./ReviewCard";
+import TrendyPlant from "./TrendyPlant";
 
 const Layout = () => {
   return (
-    <div>
-      <HeroSection />
-      <AglaonemaPlant />
-    </div>
-  )
-}
+    <div className="mt-20 sm:mt-28 md:mt-36 lg:mt-[180px] flex flex-col gap-16 sm:gap-20 lg:gap-15">
 
-export default Layout
+      <div className="flex flex-col lg:flex-row justify-between gap-16 lg:gap-10">
+
+        <div className="flex flex-col gap-16 sm:gap-20 md:gap-24 lg:gap-50">
+          <HeroSection />
+          <ReviewCard />
+        </div>
+
+        <AglaonemaPlant />
+
+      </div>
+
+      <TrendyPlant />
+
+    </div>
+  );
+};
+
+export default Layout;
